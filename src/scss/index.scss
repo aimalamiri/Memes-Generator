@@ -1,1 +1,49 @@
 $white: #fff;
+$dark-gray: #444;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  padding: 0 10rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
